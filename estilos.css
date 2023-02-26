@@ -1,0 +1,49 @@
+/* contenedor principal aplicacion flex */
+.Contenedor-Principal{
+    display: flex;
+    width: 1200px;
+}
+
+#contenedor{
+    width: 50%;
+}
+
+
+
+/* cambios en aside y en foto */
+
+/* se redondea la foto del CV */
+#Foto img{
+border-radius: 50%;
+}
+
+aside{
+    background-color: burlywood;
+    width: 30%;
+}
+
+aside *{
+    color:black;
+}
+
+aside section h2{
+    border-bottom: 2px solid white;
+}
+
+
+/* contenedor1 */
+
+.hero{
+    background-color: beige;
+}
+
+.hero h2{
+    border-top: 2px solid white;
+}
+
+.datos{
+    background-color: lemonchiffon;
+}
+.datos h2{
+    background-color: white;
+}
