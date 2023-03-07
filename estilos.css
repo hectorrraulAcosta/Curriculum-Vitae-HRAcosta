@@ -8,12 +8,23 @@
     width: 40%;
 }
 
+dl dt {
+    display: inline-block;
+    width: 10%;
+}
 
+dl dd {
+    display: inline-block;
+    width: 75%;
+}
 /* cambios en aside y en foto */
 
 /* se redondea la foto del CV */
 #Foto img{
 border-radius: 50%;
+border-style: solid;
+border-color: black;
+border-width: 5px;
 }
 
 aside{
