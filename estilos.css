@@ -1,53 +1,25 @@
 /* contenedor principal aplicacion flex */
-.cont{
-    display: flex;
-    width: 40%;
-}
 .Contenedor-Principal{
     display: flex;
     width: 1200px;
 }
 
- span{
-    text-align: left;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
- }
- 
 #contenedor{
-    width: 40%;
-    margin-left: 1.5%;
-    margin-right: 0.5%;
-}
-figure{
-align-content: center;}
-
-dl dt {
-    
-    display: inline-block;
-    width: 10%;
+    width: 50%;
 }
 
-dl dd {
-    display: inline-block;
-    width: 75%;
-}
+
+
 /* cambios en aside y en foto */
 
 /* se redondea la foto del CV */
 #Foto img{
-    behavior: calc();
 border-radius: 50%;
-border-style: solid;
-border-color: black;
-border-width: 5px;
 }
 
 aside{
     background-color: burlywood;
     width: 30%;
-    margin-left: 0.5%;
-    margin-right: 0.3%;
 }
 
 aside *{
@@ -63,9 +35,6 @@ aside section h2{
 
 .hero{
     background-color: beige;
-}
-.hero{
-align-content: center;
 }
 
 .hero h2{
